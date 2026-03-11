@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashok - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Kullu Ashok</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    
+    <!-- Hero Section -->    
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+                <h1 class="hero-title">Hi, I'm <span>Kullu Ashok</span></h1>
+                <h2 class="hero-subtitle">Web Developer</h2>
+                <p class="hero-description">
+                    Passionate about creating beautiful, responsive web experiences 
+                    with modern technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Computer Science student with a strong passion for web development. 
+                        I specialize in creating modern, responsive websites using HTML, CSS, 
+                        JavaScript, and modern frameworks. My journey in frontend development 
+                        began with a curiosity for how websites work, and now I love turning 
+        z                design concepts into functional, beautiful user experiences.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new technologies, 
+                        contributing to open-source projects, or working on personal projects 
+                        that challenge my skills and creativity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="60%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <!-- <img src="images/project1.jpg" alt="Project 1"> -->
+                    <div class="project-content">
+                        <h3>E-Commerce Website</h3>
+                        <p>A fully responsive e-commerce platform built with HTML, CSS, JavaScript, and local storage for cart functionality.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <!-- <img src="images/project2.jpg" alt="Project 2"> -->
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>Real-time weather application with API integration, animations, and responsive design using modern CSS Grid and Flexbox.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <!-- <img src="images/project3.jpg" alt="Project 3"> -->
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Interactive task manager with drag & drop functionality, local storage, and beautiful UI/UX design.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certificates-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Machine Learning Specialization</h3>
+                        <p class="cert-issuer">Coursera - DeepLearning.AI (2025)</p>
+                        <p>Completed 5-course specialization covering neural networks, deep learning, and practical ML deployment.</p>
+                        <div class="cert-links">
+                            <a href="certificates/ml-coursera.pdf" target="_blank" class="btn btn-small cert-pdf">
+                                <i class="fas fa-file-pdf"></i> View Certificate
+                            </a>
+                            <a href="https://github.com/yourusername/ml-projects" target="_blank" class="btn btn-small">
+                                <i class="fab fa-github"></i> Projects
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Python for Data Science</h3>
+                        <p class="cert-issuer">IBM Data Science Professional (2025)</p>
+                        <p>Pandas, NumPy, visualization, and data preprocessing techniques for real-world applications.</p>
+                        <div class="cert-links">
+                            <a href="certificates/python-ibm.pdf" target="_blank" class="btn btn-small cert-pdf">
+                                <i class="fas fa-file-pdf"></i> View Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>TensorFlow Developer</h3>
+                        <p class="cert-issuer">Google Cloud (2025)</p>
+                        <p>Building, training, and deploying production ML models with TensorFlow.</p>
+                        <div class="cert-links">
+                            <a href="certificates/tensorflow-google.pdf" target="_blank" class="btn btn-small cert-pdf">
+                                <i class="fas fa-file-pdf"></i> View Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always interested in new opportunities and exciting projects.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Your Name. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
