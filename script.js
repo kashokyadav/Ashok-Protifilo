@@ -238,4 +238,4 @@ document.querySelectorAll('.cert-pdf').forEach(link => {
         this.style.transform = 'scale(1)';
     });
 });
->>>>>>> 8df4dd113dfd1dc560687b7242273578ad86d142
+
